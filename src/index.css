@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #131722;
+    color: #d1d4dc;
+  }
+}
+
+/* Custom dark scrollbar for trading interfaces */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #131722;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2e39;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #363c4e;
+}
+
+/* TradingView container styling */
+.tradingview-widget-container,
+.tradingview-widget-container iframe {
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+}

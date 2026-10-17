@@ -1,0 +1,8 @@
+{
+  "name": "Trade with Griffin",
+  "description": "Full-featured financial trading platform powered by @griffin.arnav002 with real-time TradingView charts, Griffin Signal Radar, paper trading simulator, market screener, and interactive chart pattern books.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
